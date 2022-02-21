@@ -1,0 +1,24 @@
+{
+  "name": "food-festival",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fchoi1/food-festival.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fchoi1/food-festival/issues"
+  },
+  "homepage": "https://github.com/fchoi1/food-festival#readme",
+  "dependencies": {
+    "eslint": "^8.9.0",
+    "prettier": "^2.5.1"
+  }
+}
