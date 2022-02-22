@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,15 @@
   },
   "homepage": "https://github.com/fchoi1/food-festival#readme",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "eslint": "^8.9.0",
-    "prettier": "^2.5.1"
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.0",
+    "prettier": "^2.5.1",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
   }
 }

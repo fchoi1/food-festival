@@ -1,3 +1,5 @@
+require("bootstrap"); // for webpack
+
 $(document).ready(function() {
   function createEl(htmlString, attrs, ...children) {
     if (typeof htmlString !== "string") {
